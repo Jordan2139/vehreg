@@ -1,5 +1,7 @@
 # vehreg
  A Sonoran CAD plugin that makes registering vehicles effortless
+## Showcase
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sBS3PPdFAq0/0.jpg)](https://www.youtube.com/watch?v=sBS3PPdFAq0)
 
 ## Install
 
