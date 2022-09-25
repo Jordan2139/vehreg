@@ -27,5 +27,8 @@ CreateThread(function() Config.LoadPlugin("vehreg", function(pluginConfig)
             TriggerServerEvent(GetCurrentResourceName() .. "::registerVeh", primary, plate, class, realName)
         end
     end)
+    TriggerEvent("chat:addSuggestion", "/" .. pluginConfig.reigsterCommand,
+             pluginConfig.language.helpMsg)
+
     end
 end) end)
