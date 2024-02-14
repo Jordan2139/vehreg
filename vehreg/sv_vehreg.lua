@@ -51,24 +51,24 @@ CreateThread(function()
 						return;
 					else
 						res = json.decode(res)
-						first = res[1].sections[2].fields[1].value;
-						last = res[1].sections[2].fields[2].value;
-						mi = res[1].sections[2].fields[3].value;
-						dob = res[1].sections[2].fields[4].value;
-						age = res[1].sections[2].fields[5].value;
-						sex = res[1].sections[2].fields[6].value;
-						aka = res[1].sections[2].fields[7].value;
-						residence = res[1].sections[2].fields[8].value;
-						zip = res[1].sections[2].fields[9].value;
-						occupation = res[1].sections[2].fields[10].value;
-						height = res[1].sections[2].fields[11].value;
-						weight = res[1].sections[2].fields[12].value;
-						skin = res[1].sections[2].fields[13].value;
-						hair = res[1].sections[2].fields[14].value;
-						eyes = res[1].sections[2].fields[15].value;
-						emergencyContact = res[1].sections[2].fields[16].value;
-						emergencyRelationship = res[1].sections[2].fields[17].value;
-						emergencyContactNumber = res[1].sections[2].fields[18].value;
+						first = res[1].sections[1].fields[1].value;
+						last = res[1].sections[1].fields[2].value;
+						mi = res[1].sections[1].fields[3].value;
+						dob = res[1].sections[1].fields[4].value;
+						age = res[1].sections[1].fields[5].value;
+						sex = res[1].sections[1].fields[6].value;
+						aka = res[1].sections[1].fields[7].value;
+						residence = res[1].sections[1].fields[8].value;
+						zip = res[1].sections[1].fields[9].value;
+						occupation = res[1].sections[1].fields[10].value;
+						height = res[1].sections[1].fields[11].value;
+						weight = res[1].sections[1].fields[12].value;
+						skin = res[1].sections[1].fields[13].value;
+						hair = res[1].sections[1].fields[14].value;
+						eyes = res[1].sections[1].fields[15].value;
+						emergencyContact = res[1].sections[1].fields[16].value;
+						emergencyRelationship = res[1].sections[1].fields[17].value;
+						emergencyContactNumber = res[1].sections[1].fields[18].value;
 						img = res[1].sections[1].fields[1].value;
 					end
 				end)
